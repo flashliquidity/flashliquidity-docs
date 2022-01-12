@@ -1,3 +1,7 @@
+---
+description: FlashLiquidity Farming guide
+---
+
 # LP Farming
 
 ### Staking LP tokens

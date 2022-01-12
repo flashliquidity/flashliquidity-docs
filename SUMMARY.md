@@ -18,7 +18,7 @@
 
 * [Adding Liquidity](guides/adding-liquidity.md)
 * [LP Farming](guides/lp-farming.md)
-* [Claiming Farms Reward](guides/claiming-farms-reward.md)
+* [Claim/Withdraw](guides/claim-withdraw.md)
 
 ## Extras
 

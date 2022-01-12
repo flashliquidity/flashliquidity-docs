@@ -9,9 +9,9 @@ Main Contracts:
 * Factory: [0x59c2997A3D73F32590D9D49dE63B860bB1477d3c](https://polygonscan.com/address/0x59c2997A3D73F32590D9D49dE63B860bB1477d3c)
 * Router: [0x552bE393Ef90A8f95836942f731359cf609badb7](https://polygonscan.com/address/0x552bE393Ef90A8f95836942f731359cf609badb7)
 * Flash Swaps StakingFactory: [0xca85B6c06e2D0dB1C247600c6De614A0b67D29Bc](https://polygonscan.com/address/0xca85B6c06e2D0dB1C247600c6De614A0b67D29Bc)
-* FLIQ mining StakingFactory:&#x20;
-* FLIQ token:&#x20;
-* Incentivizer:&#x20;
+* FLIQ mining StakingFactory: (to be deployed)
+* FLIQ token: [0x03079F967A37cCAc6eb01d5dcC98FC45E6b57517](https://polygonscan.com/address/0x03079F967A37cCAc6eb01d5dcC98FC45E6b57517)
+* Incentivizer: (to be deployed)
 
 FlashBot Contracts:
 
@@ -33,9 +33,9 @@ Flash Swap Farms Contracts:
 
 FLIQ Farms Contracts:
 
-* MATIC-ETH:
-* MATIC-DAI:
-* ETH-DAI:
-* MATIC-SOL:
-* miMATIC-MATIC:
-* ETH-GRT:
+* MATIC-ETH: (to be deployed)
+* MATIC-DAI: (to be deployed)
+* ETH-DAI: (to be deployed)
+* MATIC-SOL: (to be deployed)
+* miMATIC-MATIC: (to be deployed)
+* ETH-GRT: (to be deployed)

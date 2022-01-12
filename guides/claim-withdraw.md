@@ -1,4 +1,8 @@
-# Claiming Farms Reward
+---
+description: How to claim rewards and/or withdraw LP tokens from FlashLiquidity Farms
+---
+
+# Claim/Withdraw
 
 ### Claim profits only
 

@@ -1,3 +1,7 @@
+---
+description: FlashLiquidity protocol derived from uniswap-v2 pools
+---
+
 # How FlashLiquidity works
 
 FlashLiquidity is an _automated liquidity protocol_ powered by a constant product formula and implemented in a system of non-upgradeable smart contracts on the [Polygon](https://docs.polygon.technology) blockchain prioritizing **decentralization**, **censorship resistance**, and **security**.

@@ -1,3 +1,7 @@
+---
+description: Liquidity provision simplified
+---
+
 # Adding Liquidity
 
 {% hint style="info" %}

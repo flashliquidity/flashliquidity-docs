@@ -67,6 +67,6 @@ Follow our handy guides to get started on the basics as quickly as possible:
 [lp-farming.md](guides/lp-farming.md)
 {% endcontent-ref %}
 
-{% content-ref url="guides/claiming-farms-reward.md" %}
-[claiming-farms-reward.md](guides/claiming-farms-reward.md)
+{% content-ref url="guides/claim-withdraw.md" %}
+[claim-withdraw.md](guides/claim-withdraw.md)
 {% endcontent-ref %}
