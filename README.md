@@ -59,14 +59,14 @@ Learn the fundamentals of FlashLiquidity:
 
 Follow our handy guides to get started on the basics as quickly as possible:
 
-{% content-ref url="guides/adding-liquidity.md" %}
-[adding-liquidity.md](guides/adding-liquidity.md)
+{% content-ref url="guides/add-liquidity-quickstart.md" %}
+[add-liquidity-quickstart.md](guides/add-liquidity-quickstart.md)
 {% endcontent-ref %}
 
-{% content-ref url="guides/lp-farming.md" %}
-[lp-farming.md](guides/lp-farming.md)
+{% content-ref url="guides/farming-quickstart.md" %}
+[farming-quickstart.md](guides/farming-quickstart.md)
 {% endcontent-ref %}
 
-{% content-ref url="guides/claim-withdraw.md" %}
-[claim-withdraw.md](guides/claim-withdraw.md)
+{% content-ref url="guides/how-to-claim-withdraw.md" %}
+[how-to-claim-withdraw.md](guides/how-to-claim-withdraw.md)
 {% endcontent-ref %}

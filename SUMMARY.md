@@ -16,9 +16,9 @@
 
 ## Guides
 
-* [Adding Liquidity](guides/adding-liquidity.md)
-* [LP Farming](guides/lp-farming.md)
-* [Claim/Withdraw](guides/claim-withdraw.md)
+* [Add Liquidity Quickstart](guides/add-liquidity-quickstart.md)
+* [Farming Quickstart](guides/farming-quickstart.md)
+* [How to Claim/Withdraw](guides/how-to-claim-withdraw.md)
 
 ## Extras
 
