@@ -7,14 +7,14 @@ description: FlashLiquidity Flash Swaps Farms overview
 
 
 {% hint style="info" %}
-**CREDITS:** Flashswap Staking contracts implement a credits based system for flash swaps profits distribution.
+**CREDITS:** Staking contracts of Flash Swaps Farms  implement a credits based system for flash swaps profits distribution.
 {% endhint %}
 
-Every flash swaps staking contract distribute **8,64** Credit/day.
+Every staking contracts of Flash Swaps Farms distribute credits at a fixed rate of **8,64** **Credit/day**.
 
 Credits are emitted every second at a fixed rate and distributed propotionally to the LP tokens staked by the user vs the total amount of LP tokens staked in the contracts.
 
-**Credits are not ERC20 tokens, they have no direct value and cannot be transfered.**
+**Credits are not ERC20 tokens, they have no direct value and cannot be transferred.**
 
 Credits are used exclusively as proof of user's staking time duration and determine the user's proportional share of profits. &#x20;
 
