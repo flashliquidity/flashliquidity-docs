@@ -7,10 +7,10 @@ Please note that contents are subjected to changes without prior notices.
 * [x] FlashLiquidity contracts deployed
 * [x] FlashLiquidity Interface
 * [x] FlashLiquidity Analytics
-* [x] FlashLiquidity Flashswaps Farms
+* [x] FlashLiquidity Flash Swaps Farms
 * [x] FLIQ FlashLiquidity deflationary governance token deployed
 * [ ] ILO launch on FlashLiquidity and Quickswap
-* [ ] FLIQ liquidity mining Farms
+* [ ] FLIQ Liquidity Mining Farms
 * [ ] Incentivizer starts buying back and partially burn FLIQ tokens
 * [ ] Community governance
 * [ ] More coming soon...
