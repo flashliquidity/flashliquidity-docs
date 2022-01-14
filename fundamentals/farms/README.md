@@ -1,5 +1,5 @@
 ---
-description: FlashLiqudity Farms overview
+description: FlashLiquidity Farms overview
 ---
 
 # Farms
