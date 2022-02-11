@@ -6,14 +6,12 @@ description: FLIQ Initial Liquidity Offering
 
 **ILO date**: to be defined
 
-**ILO price**: 1 MATIC = 20 FLIQ.
+**ILO price**: to be defined
 
-**FLIQ/MATIC pair on Quickswap** (800k FLIQ/ 40k MATIC)
+**FLIQ/MATIC pair on Quickswap:** to be defined
 
-**FLIQ/MATIC pair on FlashLiquidity** (200k FLIQ/ 10k MATIC)
+**FLIQ/MATIC pair on FlashLiquidity:** to be defined
 
-**LP token timelocked for 3 years**
+**Timelock (3 years) Quickswap** **LP tokens**: to be deployed
 
-**Timelock Quickswap** LP tokens:
-
-**Timelock FlashLiquidity** LP tokens:
+**Timelock (3 years) FlashLiquidity** **LP tokens**: to be deployed
