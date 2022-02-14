@@ -15,7 +15,7 @@ Pairs act as automated market makers, standing ready to accept one token for the
 In practice, FlashLiquidity applies a 0.30% fee to trades (0.25% to liquidity providers, 0.05% to buy back, distribute and partially burn [FLIQ](../fliq-token.md)), which is added to reserves. As a result, each trade actually increases `k`. This functions as a payout to LPs, which is realized when they burn their pool tokens to withdraw their portion of total reserves.
 
 {% hint style="success" %}
-The **key difference** between **FlashLiquidity** and **Uniswap** is that token swap can be performed only by **authorized contract address** (FlashBot contracts).
+The **key difference** between **FlashLiquidity** and **Uniswap** is that token swap can only be performed by **authorized contract address** (FlashBot contracts).
 {% endhint %}
 
 Every FlashLiquidity pair is coupled with a FlashBot contract which periodically perform flash swaps (when prices diverges between FlashLiquidity and others Polygon markets) and distribute profits to liquidity providers instead of relaying on external arbitrageurs to help equalize prices across broader Polygon markets and keep things fair.
