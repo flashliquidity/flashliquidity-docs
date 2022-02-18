@@ -4,12 +4,6 @@ description: Liquidity provision simplified
 
 # Add Liquidity Quickstart
 
-{% hint style="info" %}
-**DYOR:** Impermanent loss (credits: Finematics):
-
-[https://www.youtube.com/watch?v=8XJ1MSTEuU0](https://www.youtube.com/watch?v=8XJ1MSTEuU0)
-{% endhint %}
-
 ## Liquidity provision
 
 To add liquidity in one of the FlashLiquidity pools or even create a new pool you need first to possess some tokens in your Metamask wallet connected to Polygon blockchain.
