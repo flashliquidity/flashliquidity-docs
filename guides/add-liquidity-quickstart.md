@@ -6,9 +6,9 @@ description: Liquidity provision simplified
 
 ## Liquidity provision
 
-To add liquidity in one of the FlashLiquidity pools or even create a new pool you need first to possess some tokens in your Metamask wallet connected to Polygon blockchain.
+To add liquidity in one of the FlashLiquidity pools or even create a new one you need first to possess some tokens in your Metamask wallet connected to Polygon blockchain.
 
-Centralized Exchanges like Binance and Crypto.com offer direct Matic tokens withdrawal to the Polygon Pos chain with low fees.
+Centralized Exchanges like [Binance](https://www.binance.com) and [Crypto.com](https://crypto.com) offer direct Matic tokens withdrawal to the Polygon Pos chain with low fees.
 
 Alternatively you could use [Quickswap](https://quickswap.exchange) fiat-on-ramp options to buy Matic tokens (directly on Polygon chain) with SEPA deposits or credit card.
 

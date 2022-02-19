@@ -1,5 +1,5 @@
 ---
-description: FlashLiquidity deflationary governance token overview
+description: FlashLiquidity utility and governance token overview
 ---
 
 # FLIQ token
