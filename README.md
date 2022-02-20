@@ -30,7 +30,7 @@ FlashBot contracts performs [Flash Swaps](https://docs.uniswap.org/protocol/V2/g
 Flash swaps rebalance FlashLiquidity pools back to fair markets prices for profits which are then distributed to liquidity providers staking their [LP tokens](https://coinmarketcap.com/alexandria/glossary/liquidity-provider-tokens-lp-tokens) in the [Flash Swaps Farm](https://www.flashliquidity.finance/#/farm/flashswap) section of the [FlashLiquidity Interface](https://www.flashliquidity.finance/#/farm/flashswap)[.](https://www.flashliquidity.finance)
 
 {% hint style="info" %}
-Flash swaps profits are denominated in one of the two tokens composing the pair in question
+Flash swaps profits are denominated in one of the two tokens composing the pair in question.
 {% endhint %}
 
 Alternatively liquidity providers can stake their LP tokens in the [FLIQ Farms ](fundamentals/farms/fliq-farms.md)section to receive [FLIQ](fundamentals/fliq-token.md) tokens at a fixed rate per second proportionally to their share of liquidity staked vs total liquidity staked in the pair in question (FLIQ Farms will be launched in the near future as the time of writing only Flash Swaps Farms are available).&#x20;
