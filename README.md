@@ -1,8 +1,8 @@
 ---
 description: >-
   ⚡FlashLiquidity is a Polygon Network protocol introducing self-balancing
-  liquidity pools where automated arbitrage revenues are distributed to
-  liquidity providers.
+  liquidity pools where both token swap fees and automated arbitrage revenues
+  are distributed to liquidity providers.
 ---
 
 # FlashLiquidity
