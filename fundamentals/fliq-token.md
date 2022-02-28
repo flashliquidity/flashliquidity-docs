@@ -10,6 +10,7 @@ description: FlashLiquidity utility and governance token overview
 
 * Token Name: FlashLiquidity
 * Token Symbol: FLIQ
+* Decimals: 18
 * Contract address: [0x03079F967A37cCAc6eb01d5dcC98FC45E6b57517](https://polygonscan.com/address/0x03079F967A37cCAc6eb01d5dcC98FC45E6b57517)
 * Total Supply: 10 milion
 * $FLIQ is an ERC-20 token built on the Polygon blockchain. It will be the main utility token and the currency of FlashLiquidity ecosystem. It will be also a governance token.
