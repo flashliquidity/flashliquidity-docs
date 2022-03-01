@@ -23,7 +23,7 @@ UniswapV2 docs:
 
 FlashLiquidity is built upon the [uniswap-v2](https://github.com/Uniswap/v2-core) liquidity pools technology with liquidity providers sharing 0.25% trading volume fee as incentive.
 
-Every**\*** liquidity pool is paired one-on-one with a verified, non-upgradable smart contract called 'FlashBot' which is the only address authorized to swap tokens.
+[Every**\***](./#undefined) liquidity pool is paired one-on-one with a verified, non-upgradable smart contract called 'FlashBot' which is the only address authorized to swap tokens.
 
 FlashBot contracts performs [Flash Swaps](https://docs.uniswap.org/protocol/V2/guides/smart-contract-integration/using-flash-swaps) when prices diverge between the assigned FlashLiquidity pool and others decentralized exchanges running on Polygon network (Quickswap, Sushiswap and many others).
 
@@ -36,6 +36,8 @@ Flash swaps profits are denominated in one of the two tokens composing the pair 
 Alternatively liquidity providers can stake their LP tokens in the [FLIQ Farms ](fundamentals/farms/fliq-farms.md)section to receive [FLIQ](fundamentals/fliq-token.md) tokens at a fixed rate per second proportionally to their share of liquidity staked vs total liquidity staked in the pair in question (FLIQ Farms will be launched in the near future as the time of writing only Flash Swaps Farms are available).&#x20;
 
 To get started just add liquidity to one of the pools of your choice and stake your LP tokens to receive a share of both token swap fees, flash swaps profits and/or FLIQ tokens.
+
+#### Flash swaps requirements:
 
 {% hint style="warning" %}
 (**\***) Currently only pairs composed by 18 decimals token support automated flashswaps (new pair that will not meet this requirement will remain open for public trading but can still be included in the FLIQ liquidity mining program).
