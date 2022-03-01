@@ -8,7 +8,7 @@ description: Liquidity provision simplified
 
 To add liquidity in one of the FlashLiquidity pools or even create a new one you need first to possess some tokens in your Metamask wallet connected to Polygon blockchain.
 
-![Liquidity provision](<../.gitbook/assets/Schermata 2022-03-01 alle 15.46.54.png>)
+![Liquidity provision](../.gitbook/assets/4.png)
 
 Centralized Exchanges like [Binance](https://www.binance.com) and [Crypto.com](https://crypto.com) offer direct Matic tokens withdrawal to the Polygon Pos chain with low fees.
 
@@ -18,13 +18,13 @@ Once you have some Matic tokens in your Metamask wallet connected to the Polygon
 
 After thoose steps you should now possess the desired tokens to provide liquidity in one of the FlashLiquidity pools or even create a new one.
 
-![Tokens list](<../.gitbook/assets/Schermata 2022-03-01 alle 15.58.10.png>)
+![Tokens list](../.gitbook/assets/2.png)
 
 {% hint style="info" %}
 Please note that only pairs composed by 18 decimals token support automated flash swaps and the new pair must have at least one external matching pair in other Polygon AMMs, new pairs that will not meet these requirements will be left open for public trading
 {% endhint %}
 
-![MATIC/ETH liquidity provision](<../.gitbook/assets/Schermata 2022-03-01 alle 15.58.31.png>)
+![MATIC/ETH liquidity provision](../.gitbook/assets/3.png)
 
 Upon new pair creation, if above conditions are meet, a new FlashBot contract and a new Staking contract will be deployed and used to distribute flash swaps profits to liquidity providers staking their LP tokens in the Flash Swaps Farm section.&#x20;
 
