@@ -6,7 +6,7 @@ description: FlashLiquidity protocol overview
 
 FlashLiquidity protocol is based upon [uniswap-v2](https://github.com/Uniswap/v2-core) pools and charges a flat fee of 0.30% for token swap:
 
-* 0.25% is distributed proportionally to liquidity providers.
+* 0.25% is distributed (proportionally) to liquidity providers.
 * 0.05% is used to buy back and partially burn [FLIQ](../fliq-token.md) tokens through the Incentivizer contract (derived from sushiswap [sushimaker](https://github.com/sushiswap/sushiswap/blob/canary/contracts/SushiMaker.sol) contract).
 
 {% hint style="success" %}
