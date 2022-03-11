@@ -19,7 +19,7 @@ When prices diverge (between FlashLiquidity and other decentralized exchanges ru
 
 98% of the profits derived from flash swaps are distributed to liquidity providers staking their LP tokens in the Flash Swaps Farms section.
 
-Profits are distributed in one of the two token composing the FlashLiquidity pair in question (reffered as Reward token).&#x20;
+Profits are distributed in one of the two token composing the FlashLiquidity pair in question (refered as Reward token).&#x20;
 
 {% hint style="info" %}
 example**:** MATIC-DAI pair distribute flashswaps profits in DAI.&#x20;
