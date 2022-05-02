@@ -1,39 +1,32 @@
 ---
-description: >-
-  ⚡FlashLiquidity is a Polygon Network protocol introducing self-balancing
-  liquidity pools where both token swap fees and automated arbitrage revenues
-  are distributed to liquidity providers.
+description: ⚡FlashLiquidity Documentation
 ---
 
 # FlashLiquidity
 
-{% hint style="danger" %}
-This documentation is currently under redaction and incomplete.
-{% endhint %}
+![](<.gitbook/assets/png\_20220415\_172744\_0000 (1).png>)
 
-{% hint style="info" %}
-**AMM and Liquidity Pools terminology** are heavily used **** in the following paragraphs make sure to have a basic understanding of the subjects before diving further in this docs.
-
-UniswapV2 docs:
-
-[https://docs.uniswap.org/protocol/V2/introduction](https://docs.uniswap.org/protocol/V2/introduction)
+{% hint style="warning" %}
+This documentation is still under redaction.
 {% endhint %}
 
 ### Brief introduction:
 
+FlashLiquidity is a decentralized protocol introducing self-balancing liquidity pools where both token swap fees and automated arbitrage revenues are distributed to liquidity providers.
+
 FlashLiquidity is built upon the [uniswap-v2](https://github.com/Uniswap/v2-core) liquidity pools technology with liquidity providers sharing 0.25% trading volume fee as incentive.
 
-[Every**\***](./#requirements) liquidity pool is paired one-on-one with a verified, non-upgradable smart contract called 'FlashBot' which is the only address authorized to swap tokens.
+[Every**\***](./#requirements) liquidity pool is paired one-on-one with a verified, non-upgradable smart contract called 'FlashSwapper' which is the only address authorized to swap tokens on the assigned pair effectively removing competition from external arbitrageurs.
 
-FlashBot contracts performs [Flash Swaps](https://docs.uniswap.org/protocol/V2/guides/smart-contract-integration/using-flash-swaps) when prices diverge between the assigned FlashLiquidity pool and others decentralized exchanges running on Polygon network (Quickswap, Sushiswap and many others).
+FlashSwapper contracts performs [Flash Swaps](https://docs.uniswap.org/protocol/V2/guides/smart-contract-integration/using-flash-swaps) when prices diverge between the assigned FlashLiquidity pool and others decentralized exchanges running on Polygon network (Quickswap, Sushiswap and many others).
 
-Flash swaps rebalance FlashLiquidity pools back to fair markets prices for profits which are then distributed to liquidity providers staking their [LP tokens](https://coinmarketcap.com/alexandria/glossary/liquidity-provider-tokens-lp-tokens) in the [Flash Swaps Farm](https://www.flashliquidity.finance/#/farm/flashswap) section of the [FlashLiquidity Interface](https://www.flashliquidity.finance/#/farm/flashswap)[.](https://www.flashliquidity.finance)
+Automated flash swaps rebalance FlashLiquidity pools back to fair markets prices for profits which are then distributed to liquidity providers staking their [LP tokens](https://coinmarketcap.com/alexandria/glossary/liquidity-provider-tokens-lp-tokens) in the [Flash Swaps Farm](https://www.flashliquidity.finance/#/farm/flashswap) section.
 
 {% hint style="info" %}
 Flash swaps profits are denominated in one of the two tokens composing the pair in question.
 {% endhint %}
 
-Alternatively liquidity providers can stake their LP tokens in the [FLIQ Farms ](fundamentals/farms/fliq-farms.md)section to receive [FLIQ](fundamentals/fliq-token.md) tokens at a fixed rate per second proportionally to their share of liquidity staked vs total liquidity staked in the pair in question (FLIQ Farms will be launched in the near future as the time of writing only Flash Swaps Farms are available).&#x20;
+Alternatively liquidity providers can stake their LP tokens in the [FLIQ Farms ](fundamentals/farms/fliq-farms.md)section to receive [FLIQ](fundamentals/fliq-token.md) tokens at a fixed rate per second proportionally to their share of liquidity staked vs total liquidity staked in the pair in question (FLIQ Farms will be launched in the near future at the time of writing only Flash Swaps Farms are available).&#x20;
 
 To get started just add liquidity to one of the pools of your choice and stake your LP tokens to receive a share of both token swap fees, flash swaps profits and/or FLIQ tokens.
 
