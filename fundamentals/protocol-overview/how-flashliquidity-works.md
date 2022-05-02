@@ -21,11 +21,3 @@ The **key difference** between **FlashLiquidity** and **Uniswap** is that token 
 Every FlashLiquidity pair is coupled with a FlashBot contract which periodically perform flash swaps (when prices diverges between FlashLiquidity and others Polygon markets) and distribute profits to liquidity providers instead of relaying on external arbitrageurs to help equalize prices across broader Polygon markets and keep things fair.
 
 Flash swaps are performed when a certain level of dynamic minimum profit is obtained and then 98% of the profits are distributed to liquidity providers staking their token in the Farm section while 2% is kept by the protocol for further expansion, infrastructure maintenance, contests reward and much more.
-
-Currently all FlashBots are managed by FlashLiquidity dev in a quite centralized way which does not satisfy the vision of a completely decentralized protocol.
-
-{% hint style="success" %}
-FLIQ tokens will be the key component, once enough distributed, to fullfill the transistion to a more decentralized management of FlashLiquidity FlashBots.
-{% endhint %}
-
-One of the possible scenario is the one where FLIQ holders will be able to vote for specific FlashBot operators from a list of candidate meeting the requirements (e.g. minimum FLIQ staked) and implement a reward/penalty system where good FlashBot operators earn a share of the flash swaps profits (2%) and bad ones get their staked FLIQ slashed.

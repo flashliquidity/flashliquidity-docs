@@ -24,7 +24,7 @@ FLIQ tokens bought back by Incentivizer contract are distributed to **FlashLiqui
 ### Token Allocation
 
 * 85% distributed through liquidity mining on FlashLiquidity [FLIQ farms](farms/fliq-farms.md)
-* 10% ILO launch on FlashLiquidity and Quickswap
+* 10% ILO on FlashLiquidity and Quickswap
 * 2% Marketing
 * 2% FlashLiquidity dev
 * 1% Airdrop

@@ -12,5 +12,6 @@ Please note that contents are subjected to changes without prior notices.
 * [ ] ILO launch on FlashLiquidity and Quickswap
 * [ ] FLIQ Liquidity Mining Farms
 * [ ] Incentivizer starts buying back and partially burn FLIQ tokens
+* [ ] FLIQ Staking&#x20;
 * [ ] Community governance
 * [ ] More coming soon...

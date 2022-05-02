@@ -26,6 +26,8 @@ The factory holds the generic bytecode responsible for powering pairs. Its prima
 
 Pairs have two primary purposes: serving as automated market makers and keeping track of pool token balances. They also expose data which can be used to build decentralized price oracles.
 
+FlashLiquidity pairs can be assigned to a specific address which is the only one authorized to perform token swaps or left open for public trading.
+
 ## Periphery <a href="#periphery" id="periphery"></a>
 
 [Source code](https://github.com/Uniswap/uniswap-v2-periphery)

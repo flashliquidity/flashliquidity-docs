@@ -25,13 +25,11 @@ Profits are distributed in one of the two token composing the FlashLiquidity pai
 example**:** MATIC-DAI pair distribute flashswaps profits in DAI.&#x20;
 {% endhint %}
 
-Currently 2% of the profits derived from flash swaps are kept by the protocol for gas fees repayment (FlashLiquidity pays for flash swaps gas fees in advance) , infrastructure maintenance, contests rewards and further expansion.
-
-Once [FLIQ](../fliq-token.md) tokens will be enough distributed and decentralized governance begin the 2% of profits will be reserved to indipendent FlashBot operators voted by the community completing FlashLiquidity protocol decentralized vision ([read more](how-flashliquidity-works.md)).  &#x20;
+Currently 2% of the profits derived from flash swaps are kept by the protocol for gas fees repayment (FlashLiquidity pays for flash swaps gas fees in advance) , infrastructure maintenance, contests rewards and further expansion. &#x20;
 
 {% hint style="info" %}
 Currently Incentivizer is owned by FlashLiquidity developer.
 
-Ownership will be transferred to a Governance contract when community will be ready and FLIQ tokens enough distributed.&#x20;
+Ownership will be transferred once [FLIQ](../fliq-token.md) tokens will be enough distributed and decentralized governance begin.&#x20;
 {% endhint %}
 

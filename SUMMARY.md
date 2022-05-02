@@ -7,6 +7,7 @@
 * [Protocol overview](fundamentals/protocol-overview/README.md)
   * [How FlashLiquidity works](fundamentals/protocol-overview/how-flashliquidity-works.md)
   * [Smart contracts](fundamentals/protocol-overview/smart-contracts.md)
+  * [Glossary](fundamentals/protocol-overview/glossary.md)
 * [Roadmap](fundamentals/roadmap.md)
 * [FLIQ token](fundamentals/fliq-token.md)
 * [Farms](fundamentals/farms/README.md)

@@ -4,7 +4,7 @@ description: ⚡FlashLiquidity Documentation
 
 # FlashLiquidity
 
-![](<.gitbook/assets/png\_20220415\_172744\_0000 (1).png>)
+![](.gitbook/assets/png\_20220415\_172744\_0000\(2\).png)
 
 {% hint style="warning" %}
 This documentation is still under redaction.
