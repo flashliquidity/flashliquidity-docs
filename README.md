@@ -14,19 +14,21 @@ This documentation is still under redaction.
 
 FlashLiquidity is a decentralized protocol introducing self-balancing liquidity pools where both token swap fees and automated arbitrage revenues are distributed to liquidity providers.
 
-FlashLiquidity is built upon the [uniswap-v2](https://github.com/Uniswap/v2-core) liquidity pools technology with liquidity providers sharing 0.25% trading volume fee as incentive.
+FlashLiquidity is primarily a decentralized exchange running on Polygon mainnet and derived from [uniswap-v2](https://github.com/Uniswap/v2-core) with liquidity providers sharing a 0.25% fee of the trading volume as incentive.
 
-[Every**\***](./#requirements) liquidity pool is paired one-on-one with a verified, non-upgradable smart contract called 'FlashSwapper' which is the only address authorized to swap tokens on the assigned pair effectively removing competition from external arbitrageurs.
+{% hint style="success" %}
+The **key difference** between **FlashLiquidity** and **Uniswap** is that pairs [can](./#requirements)\* be assigned to a privileged address (FlashSwapper smart contract) or left open for public trading. In the first case token swaps can only be performed by the **authorized address** hence blocking external arbitrageurs that could compete ([frontrunning](https://arxiv.org/pdf/2102.03347.pdf)) with automated flash swaps executed by the FlashSwapper contract making possible to distribute arbitrage profits to liquidity providers instead.&#x20;
+{% endhint %}
 
-FlashSwapper contracts performs [Flash Swaps](https://docs.uniswap.org/protocol/V2/guides/smart-contract-integration/using-flash-swaps) when prices diverge between the assigned FlashLiquidity pool and others decentralized exchanges running on Polygon network (Quickswap, Sushiswap and many others).
+FlashSwapper contracts performs [Flash Swaps](https://docs.uniswap.org/protocol/V2/guides/smart-contract-integration/using-flash-swaps) only when the deviation between the rates of the assigned FlashLiquidity pool and an equivalent external pool on another decentralized exchanges exceeds a minimum profit threshold.
 
 Automated flash swaps rebalance FlashLiquidity pools back to fair markets prices for profits which are then distributed to liquidity providers staking their [LP tokens](https://coinmarketcap.com/alexandria/glossary/liquidity-provider-tokens-lp-tokens) in the [Flash Swaps Farm](https://www.flashliquidity.finance/#/farm/flashswap) section.
 
 {% hint style="info" %}
-Flash swaps profits are denominated in one of the two tokens composing the pair in question.
+Flash swaps profits are denominated in one of the two tokens composing the pair in question (example: ETH-DAI distribute arbitrage profits in ETH).
 {% endhint %}
 
-Alternatively liquidity providers can stake their LP tokens in the [FLIQ Farms ](fundamentals/farms/fliq-farms.md)section to receive [FLIQ](fundamentals/fliq-token.md) tokens at a fixed rate per second proportionally to their share of liquidity staked vs total liquidity staked in the pair in question (FLIQ Farms will be launched in the near future at the time of writing only Flash Swaps Farms are available).&#x20;
+Alternatively liquidity providers can stake their LP tokens in the [FLIQ Farms ](ecosystem/farms/fliq-farms.md)section to receive [FLIQ](ecosystem/fliq-token.md) tokens at a fixed rate per second proportionally to their share of liquidity staked vs total liquidity staked in the pair in question (FLIQ Farms will be launched in the near future at the time of writing only Flash Swaps Farms are available).&#x20;
 
 To get started just add liquidity to one of the pools of your choice and stake your LP tokens to receive a share of both token swap fees, flash swaps profits and/or FLIQ tokens.
 
@@ -40,20 +42,20 @@ To get started just add liquidity to one of the pools of your choice and stake y
 
 Learn the fundamentals of FlashLiquidity:
 
-{% content-ref url="fundamentals/protocol-overview/" %}
-[protocol-overview](fundamentals/protocol-overview/)
+{% content-ref url="ecosystem/protocol-overview.md" %}
+[protocol-overview.md](ecosystem/protocol-overview.md)
 {% endcontent-ref %}
 
-{% content-ref url="fundamentals/roadmap.md" %}
-[roadmap.md](fundamentals/roadmap.md)
+{% content-ref url="ecosystem/roadmap.md" %}
+[roadmap.md](ecosystem/roadmap.md)
 {% endcontent-ref %}
 
-{% content-ref url="fundamentals/fliq-token.md" %}
-[fliq-token.md](fundamentals/fliq-token.md)
+{% content-ref url="ecosystem/fliq-token.md" %}
+[fliq-token.md](ecosystem/fliq-token.md)
 {% endcontent-ref %}
 
-{% content-ref url="fundamentals/farms/" %}
-[farms](fundamentals/farms/)
+{% content-ref url="ecosystem/farms/" %}
+[farms](ecosystem/farms/)
 {% endcontent-ref %}
 
 ### Guides: Jump right in

@@ -7,7 +7,7 @@ description: FlashLiquidity protocol overview
 FlashLiquidity protocol is based upon [uniswap-v2](https://github.com/Uniswap/v2-core) pools and charges a flat fee of 0.30% for token swap:
 
 * 0.25% is distributed (proportionally) to liquidity providers.
-* 0.05% is used to buy back and partially burn [FLIQ](../fliq-token.md) tokens through the Incentivizer contract (derived from sushiswap [sushimaker](https://github.com/sushiswap/sushiswap/blob/canary/contracts/SushiMaker.sol) contract).
+* 0.05% is used to buy back and partially burn [FLIQ](fliq-token.md) tokens through the Incentivizer contract (derived from sushiswap [sushimaker](https://github.com/sushiswap/sushiswap/blob/canary/contracts/SushiMaker.sol) contract).
 
 {% hint style="success" %}
 Incentivizer contract burn all FLIQ tokens collected from FLIQ pairs fees while other tokens collected are converted and used to buy back and distribute FLIQ tokens to liquidity providers.
@@ -30,6 +30,6 @@ Currently 2% of the profits derived from flash swaps are kept by the protocol fo
 {% hint style="info" %}
 Currently Incentivizer is owned by FlashLiquidity developer.
 
-Ownership will be transferred once [FLIQ](../fliq-token.md) tokens will be enough distributed and decentralized governance begin.&#x20;
+Ownership will be transferred once [FLIQ](fliq-token.md) tokens will be enough distributed and decentralized governance begin.&#x20;
 {% endhint %}
 

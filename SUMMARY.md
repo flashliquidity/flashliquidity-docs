@@ -2,18 +2,19 @@
 
 * [FlashLiquidity](README.md)
 
-## Fundamentals
+## Ecosystem
 
-* [Protocol overview](fundamentals/protocol-overview/README.md)
-  * [How FlashLiquidity works](fundamentals/protocol-overview/how-flashliquidity-works.md)
-  * [Smart contracts](fundamentals/protocol-overview/smart-contracts.md)
-  * [Glossary](fundamentals/protocol-overview/glossary.md)
-* [Roadmap](fundamentals/roadmap.md)
-* [FLIQ token](fundamentals/fliq-token.md)
-* [Farms](fundamentals/farms/README.md)
-  * [Flash Swaps Farms](fundamentals/farms/flash-swaps-farms.md)
-  * [FLIQ Farms](fundamentals/farms/fliq-farms.md)
-* [ILO](fundamentals/ilo.md)
+* [Protocol overview](ecosystem/protocol-overview.md)
+* [Automated market maker](ecosystem/automated-market-maker/README.md)
+  * [Smart contracts](ecosystem/automated-market-maker/smart-contracts.md)
+* [Automated flash swaps](ecosystem/automated-flash-swaps.md)
+* [Roadmap](ecosystem/roadmap.md)
+* [FLIQ token](ecosystem/fliq-token.md)
+* [Farms](ecosystem/farms/README.md)
+  * [Flash Swaps Farms](ecosystem/farms/flash-swaps-farms.md)
+  * [FLIQ Farms](ecosystem/farms/fliq-farms.md)
+* [ILO](ecosystem/ilo.md)
+* [Glossary](ecosystem/glossary.md)
 
 ## Guides
 

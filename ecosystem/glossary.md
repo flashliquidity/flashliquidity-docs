@@ -6,7 +6,7 @@ An automated market maker is a smart contract that holds on-chain liquidity rese
 
 #### Constant product formula <a href="#constant-product-formula" id="constant-product-formula"></a>
 
-The automated market making algorithm used by FlashLiquidity. See [x\*y=k](how-flashliquidity-works.md).
+The automated market making algorithm used by FlashLiquidity. See [x\*y=k](automated-market-maker/).
 
 #### ERC20 <a href="#erc20" id="erc20"></a>
 
