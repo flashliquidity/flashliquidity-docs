@@ -16,9 +16,7 @@ FlashLiquidity is a decentralized protocol introducing self-balancing liquidity 
 
 FlashLiquidity is primarily a decentralized exchange running on Polygon mainnet and derived from [uniswap-v2](https://github.com/Uniswap/v2-core) with liquidity providers sharing a 0.25% fee of the trading volume as incentive.
 
-{% hint style="success" %}
 The **key difference** between **FlashLiquidity** and **Uniswap** is that pairs [can](./#requirements)\* be assigned to a privileged address (FlashSwapper smart contract) or left open for public trading. In the first case token swaps can only be performed by the **authorized address** hence blocking external arbitrageurs that could compete ([frontrunning](https://arxiv.org/pdf/2102.03347.pdf)) with automated flash swaps executed by the FlashSwapper contract making possible to distribute arbitrage profits to liquidity providers instead.&#x20;
-{% endhint %}
 
 FlashSwapper contracts performs [Flash Swaps](https://docs.uniswap.org/protocol/V2/guides/smart-contract-integration/using-flash-swaps) only when the deviation between the rates of the assigned FlashLiquidity pool and an equivalent external pool on another decentralized exchanges exceeds a minimum profit threshold.
 
