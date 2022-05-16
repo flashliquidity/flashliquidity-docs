@@ -4,7 +4,7 @@ description: FlashLiquidity core contracts forked from Uniswap V2
 
 # Automated market maker
 
-FlashLiquidity, like Uniswap V2, is an _automated liquidity protocol_ powered by a constant product formula and implemented in a system of non-upgradeable smart contracts on the [Polygon](https://docs.polygon.technology) blockchain prioritizing **decentralization**, **censorship resistance**, and **security**.
+FlashLiquidity, like Uniswap V2, is an _automated liquidity protocol_ powered by a constant product formula and implemented in a system of non-upgradeable smart contracts on the [Polygon](https://docs.polygon.technology/) blockchain prioritizing **decentralization**, **censorship resistance**, and **security**.
 
 Each FlashLiquidity smart contract, or pair, manages a liquidity pool made up of reserves of two [ERC-20](https://eips.ethereum.org/EIPS/eip-20) tokens.
 

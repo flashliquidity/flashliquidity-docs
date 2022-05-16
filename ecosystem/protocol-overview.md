@@ -15,15 +15,17 @@ Incentivizer contract burn all FLIQ tokens collected from FLIQ pairs fees while 
 
 FLIQ tokens bought back with the Incentivizer contract are then distributed to Flashliquidity FLIQ/MATIC liquidity providers staking their FLIQ/MATIC LP tokens in the Flash Swaps Farm section.
 
-When prices diverge (between FlashLiquidity and other decentralized exchanges running on Polygon Network) FlashBot contracts perform arbitrages through flash swaps to rebalance FlashLiquidity pools rates to fair market prices and make profits.
+The protocol’s key differentiator is that liquidity providers can earn both a 0.25% fee of the trading volume as well as the arbitrage profits associated with keeping a liquidity pool balanced.
 
-98% of the profits derived from flash swaps are distributed to liquidity providers staking their LP tokens in the Flash Swaps Farms section.
+Liquidity pairs can be left open for public trading _or_ assigned to a privileged address where a ‘FlashSwapper’ contract is deployed to handle the flash swaps execution logic and distribute arbitrage profits to liquidity providers. In the cases where a FlashSwapper contract is deployed, flash swaps can only be performed by an authorized address — blocking external arbitrageurs that could compete (through [frontrunning](https://arxiv.org/pdf/2102.03347.pdf)) with automated flash swaps executed by the FlashSwapper contract. This effectively makes it possible to distribute all arbitrage profits to liquidity providers instead of independent arbitrageurs.
 
 Profits are distributed in one of the two token composing the FlashLiquidity pair in question (refered as Reward token).&#x20;
 
 {% hint style="info" %}
 example**:** MATIC-DAI pair distribute flashswaps profits in DAI.&#x20;
 {% endhint %}
+
+98% of the profits derived from flash swaps are distributed to liquidity providers staking their LP tokens in the Flash Swaps Farms section.
 
 Currently 2% of the profits derived from flash swaps are kept by the protocol for gas fees repayment (FlashLiquidity pays for flash swaps gas fees in advance) , infrastructure maintenance, contests rewards and further expansion. &#x20;
 
