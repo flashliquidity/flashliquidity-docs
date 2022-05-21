@@ -21,3 +21,5 @@ Credits are used exclusively as proof of user's staking time duration and to det
 When claiming profits from the staking contract the credits accumulated by the user are revoked and the proportional share of profits is sent to the user address from the Staking contract balance.&#x20;
 
 Every Staking contract distribute profits in one of the two token composing the corresponding pair (e.g. the reward token for the MATIC/ETH staking contract is MATIC)&#x20;
+
+98% of the profits derived from flash swaps are distributed to liquidity providers staking their LP tokens while 2% are kept by the protocol for gas fees repayment (FlashLiquidity pays for flash swaps gas fees in advance) , infrastructure maintenance, contests rewards and further expansion. &#x20;

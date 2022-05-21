@@ -40,25 +40,25 @@ To get started just add liquidity to one of the pools of your choice and stake y
 
 Learn the fundamentals of FlashLiquidity:
 
-{% content-ref url="ecosystem/protocol-overview.md" %}
-[protocol-overview.md](ecosystem/protocol-overview.md)
+{% content-ref url="ecosystem/automated-market-maker/" %}
+[automated-market-maker](ecosystem/automated-market-maker/)
 {% endcontent-ref %}
 
-{% content-ref url="ecosystem/roadmap.md" %}
-[roadmap.md](ecosystem/roadmap.md)
+{% content-ref url="ecosystem/automated-dex-arbitrage/" %}
+[automated-dex-arbitrage](ecosystem/automated-dex-arbitrage/)
 {% endcontent-ref %}
 
 {% content-ref url="ecosystem/fliq-token.md" %}
 [fliq-token.md](ecosystem/fliq-token.md)
 {% endcontent-ref %}
 
-{% content-ref url="ecosystem/farms/" %}
-[farms](ecosystem/farms/)
+{% content-ref url="ecosystem/roadmap.md" %}
+[roadmap.md](ecosystem/roadmap.md)
 {% endcontent-ref %}
 
 ### Guides: Jump right in
 
-Follow our handy guides to get started on the basics as quickly as possible:
+Follow our handy guides to get started as quickly as possible:
 
 {% content-ref url="guides/add-liquidity-quickstart.md" %}
 [add-liquidity-quickstart.md](guides/add-liquidity-quickstart.md)

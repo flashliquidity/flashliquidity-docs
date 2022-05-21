@@ -14,7 +14,7 @@ description: FlashLiquidity utility and governance token
 * Contract address: [0x03079F967A37cCAc6eb01d5dcC98FC45E6b57517](https://polygonscan.com/address/0x03079F967A37cCAc6eb01d5dcC98FC45E6b57517)
 * Total Supply: 10 milion
 * $FLIQ is an ERC-20 token built on the Polygon blockchain. It will be the main utility token and the currency of FlashLiquidity ecosystem. It will be also a governance token.
-* Incentivizer contract periodically burn FLIQ tokens collected from 0.05% token swap fees effectively making FLIQ a deflationary token (combined with a fixed supply it will increase scarcity overtime).
+* Incentivizer contract (derived from sushiswap [sushimaker](https://github.com/sushiswap/sushiswap/blob/canary/contracts/SushiMaker.sol) contract) periodically burn FLIQ tokens collected from 0.05% token swap fees effectively making FLIQ a deflationary token (combined with a fixed supply it will increase scarcity overtime).
 * Incentivizer contract periodically convert other collected tokens (except FLIQ as explained above) from 0.05% token swap fees to buy back and distribute FLIQ tokens to FLIQ-MATIC liquidity providers staking their LP tokens in the Flash Swaps Farm section of FlashLiquidity.
 
 {% hint style="success" %}
@@ -23,7 +23,8 @@ FLIQ tokens bought back by Incentivizer contract are distributed to **FlashLiqui
 
 ### Token Allocation
 
-* 85% distributed through liquidity mining on FlashLiquidity [FLIQ farms](farms/fliq-farms.md)
+* 55% distributed through liquidity mining on FlashLiquidity [FLIQ farms](farms/fliq-farms.md)
+* 30% FLIQ Staking
 * 10% ILO on FlashLiquidity and Quickswap
 * 2% Marketing
 * 2% FlashLiquidity dev
