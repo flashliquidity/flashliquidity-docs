@@ -1,5 +1,5 @@
 ---
-description: FlashLiquidity flashloans
+description: FlashLiquidity flash loans
 ---
 
 # Flash Loans
@@ -11,7 +11,10 @@ Flash Loans allow you to borrow any available amount of assets without putting u
 {% endhint %}
 
 * Flash swaps farms contracts can lend out up to the entire rewards token balance in flash loan operations.
-* 0.05% fees. (Generates yield for the capital deposited into farms)
+* flashLoan() function allows borrower to access liquidity of flash swaps farms reward token balance.
+* 0.05% fees. (Generates yield for the arbitrage profits deposited into farms)
+* NOTE: _flash loan fee_ is waived for approved addresses (zero fee flash loans)
+* After some sanity checks, the Farm transfers the requested amounts of the reward token balance to your contract, then calls onFlashLoan() on receiver contract.
 
 ```
 interface IFlashBorrower {
