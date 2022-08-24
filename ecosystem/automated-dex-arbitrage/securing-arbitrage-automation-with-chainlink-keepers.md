@@ -2,7 +2,7 @@
 
 [Chainlink Keepers](https://keepers.chain.link/) constantly monitor rates between FlashLiquidity pools and external pools on other decentralized exchanges to seek arbitrage opportunities.
 
-Chainlink Keepers trigger flash swaps from FlashSwapper contract when the deviation between the rates of the assigned FlashLiquidity pool and an equivalent external pool on another decentralized exchanges exceeds a minimum profit threshold (example: FlashLiquidity ETH-DAI pool and Quickswap ETH-DAI pool).
+Chainlink Keepers trigger flash swaps from FlashBot contract when the deviation between the rates of the assigned FlashLiquidity pool and an equivalent external pool on another decentralized exchanges exceeds a minimum profit threshold (example: FlashLiquidity ETH-DAI pool and Quickswap ETH-DAI pool).
 
 The minimum profit threshold is determined using Chainlink Price Feeds.
 
