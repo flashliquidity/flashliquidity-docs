@@ -15,7 +15,6 @@
   * [Flash Swaps Farms](ecosystem/farms/flash-swaps-farms.md)
   * [FLIQ Farms](ecosystem/farms/fliq-farms.md)
 * [Roadmap](ecosystem/roadmap.md)
-* [ILO](ecosystem/ilo.md)
 * [Glossary](ecosystem/glossary.md)
 
 ## Guides
