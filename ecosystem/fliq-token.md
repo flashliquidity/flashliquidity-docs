@@ -14,8 +14,7 @@ description: FlashLiquidity utility and governance token
 * Contract address: [0x440c36CB5558D1807d6B2C04f9f36970387aEB68](https://polygonscan.com/address/0x440c36CB5558D1807d6B2C04f9f36970387aEB68)
 * Total Supply: 100 milion
 * $FLIQ is an ERC-20 token built on the Polygon blockchain. It will be the main utility token and the currency of FlashLiquidity ecosystem. It will be also a governance token.
-* FliqPropulsionSystem contract (derived from sushiswap [sushimaker](https://github.com/sushiswap/sushiswap/blob/canary/contracts/SushiMaker.sol) contract) periodically burn FLIQ tokens collected from 0.05% token swap fees effectively making FLIQ a deflationary token (combined with a fixed supply it will increase scarcity overtime).
-* FliqPropulsionSystem contract periodically convert all collected tokens (except FLIQ) from 0.05% token swap fees to buy back and burn FLIQ tokens.
+* FliqPropulsionSystem contract (derived from sushiswap [sushimaker](https://github.com/sushiswap/sushiswap/blob/canary/contracts/SushiMaker.sol) contract) periodically convert all collected tokens (except FLIQ) from 0.05% token swap fees to buy back and burn FLIQ tokens.
 * FLIQ tokens collected from 0.05% token swap fees are periodically distributed to FLIQ-DAI liquidity providers staking their LP tokens in the Flash Swaps Farm section of FlashLiquidity (Boosted Flash Swaps Farm).
 
 {% hint style="success" %}
