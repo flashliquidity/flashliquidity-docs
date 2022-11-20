@@ -4,20 +4,16 @@
 
 ## Ecosystem
 
-* [Automated Market Maker](ecosystem/automated-market-maker/README.md)
-  * [Smart contracts](ecosystem/automated-market-maker/smart-contracts.md)
-* [Automated DEX Arbitrage](ecosystem/automated-dex-arbitrage/README.md)
-  * [Securing Arbitrage Automation With Chainlink Keepers](ecosystem/automated-dex-arbitrage/securing-arbitrage-automation-with-chainlink-keepers.md)
-  * [Determining Profit Thresholds With Chainlink Price Feeds](ecosystem/automated-dex-arbitrage/determining-profit-thresholds-with-chainlink-price-feeds.md)
-* [Farms](ecosystem/farms/README.md)
-  * [Flash Swaps Farms](ecosystem/farms/flash-swaps-farms.md)
-  * [FLIQ Farms](ecosystem/farms/fliq-farms.md)
-* [Flash Loans](ecosystem/flash-loans.md)
+* [Open pools](ecosystem/open-pools.md)
+* [Self-balancing pools](ecosystem/self-balancing-pools.md)
+* [Liquid farming](ecosystem/liquid-farming/README.md)
+  * [Liquid farming tokens](ecosystem/liquid-farming/liquid-farming-tokens.md)
+  * [Arbitrage farms](ecosystem/liquid-farming/arbitrage-farms.md)
+  * [FLIQ farms](ecosystem/liquid-farming/fliq-farms.md)
+  * [Flash loans](ecosystem/liquid-farming/flash-loans.md)
 * [FLIQ token](ecosystem/fliq-token.md)
 * [Governance](ecosystem/governance.md)
-* [Treasury](ecosystem/treasury.md)
 * [Roadmap](ecosystem/roadmap.md)
-* [Glossary](ecosystem/glossary.md)
 
 ## Guides
 

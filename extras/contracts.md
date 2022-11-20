@@ -11,12 +11,9 @@ Main Contracts:
 * Flash Swaps StakingFactory: [0x4E19DDA1Ad86E0A87527bC30c313eC8133051D01](https://polygonscan.com/address/0x4E19DDA1Ad86E0A87527bC30c313eC8133051D01)
 * FLIQ mining StakingFactory: (to be deployed)
 * FLIQ token: [0x440c36CB5558D1807d6B2C04f9f36970387aEB68](https://polygonscan.com/address/0x440c36CB5558D1807d6B2C04f9f36970387aEB68)
-* FlashLiquidityBastion (OLD): [0x9d57E9716AD0625fEc279273D6Ac7E5879E495Da](https://polygonscan.com/address/0x9d57E9716AD0625fEc279273D6Ac7E5879E495Da)
-* FlashBotFactory (OLD): [0xa0f7617b8afb3143c485563A79A1F6f71EB4E8c1](https://polygonscan.com/address/0xa0f7617b8afb3143c485563A79A1F6f71EB4E8c1)
-* UpkeepsStationFactory (OLD): [0x1e2842Fca01A00890FA889B40f3c05A45C1DA5bf](https://polygonscan.com/address/0x1e2842Fca01A00890FA889B40f3c05A45C1DA5bf)
-* FlashLiquidityBastion (NEW): [0xD50d0A0361691bD64c56F946CbFE627Fb2329012](https://polygonscan.com/address/0xD50d0A0361691bD64c56F946CbFE627Fb2329012)
-* FlashBotFactory (NEW): [0x93f515Df1a20a69ED01D181d85742BF5dE5028C2](https://polygonscan.com/address/0x93f515Df1a20a69ED01D181d85742BF5dE5028C2)
-* UpkeepsStationFactory (NEW): [0x4220Ec78a582e401F373009c5bD1107C1C4c29a8](https://polygonscan.com/address/0x4220Ec78a582e401F373009c5bD1107C1C4c29a8)
+* FlashLiquidityBastion: [0xD50d0A0361691bD64c56F946CbFE627Fb2329012](https://polygonscan.com/address/0xD50d0A0361691bD64c56F946CbFE627Fb2329012)
+* FlashBotFactory: [0x93f515Df1a20a69ED01D181d85742BF5dE5028C2](https://polygonscan.com/address/0x93f515Df1a20a69ED01D181d85742BF5dE5028C2)
+* UpkeepsStationFactory: [0x4220Ec78a582e401F373009c5bD1107C1C4c29a8](https://polygonscan.com/address/0x4220Ec78a582e401F373009c5bD1107C1C4c29a8)
 * FliqPropulsionSystem: [0xaA853483D3d8E910Ef312c8E967876dE16cf5FE8](https://polygonscan.com/address/0xaA853483D3d8E910Ef312c8E967876dE16cf5FE8)
 
 
@@ -34,7 +31,7 @@ FlashBot Contracts:
 * miMATIC-MATIC: [0x1e45F3FCb6Fb793EDd8Ea6D4348Cd2E3D1CfbC33](https://polygonscan.com/address/0x1e45F3FCb6Fb793EDd8Ea6D4348Cd2E3D1CfbC33)
 * ETH-GRT: [0xDC1b7feA189244f92451798db0fFeDf4Aa2D0194](https://polygonscan.com/address/0xDC1b7feA189244f92451798db0fFeDf4Aa2D0194)
 
-Flash Swap Farms Contracts:
+Arbitrage Farms Contracts:
 
 * MATIC-ETH: [0xe15eA631f1b8228ea3ef9531820936398C05eA3d](https://polygonscan.com/address/0xe15eA631f1b8228ea3ef9531820936398C05eA3d)
 * ETH-DAI: [0x068ea5E30052EEE2A90D2DB0709230226324940a](https://polygonscan.com/address/0x068ea5E30052EEE2A90D2DB0709230226324940a)

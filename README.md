@@ -4,61 +4,48 @@ description: ⚡FlashLiquidity Documentation
 
 # FlashLiquidity
 
-![](.gitbook/assets/png\_20220415\_172744\_0000\(2\).png)
-
 {% hint style="warning" %}
 This documentation is still under redaction.
 {% endhint %}
 
 ### Brief introduction:
 
-FlashLiquidity is a decentralized protocol introducing self-balancing liquidity pools where both token swap fees and automated arbitrage revenues are distributed to liquidity providers.
+FlashLiquidity is a rapidly expanding suite of DeFi products ranging from decentralized trading, automated arbitrage, yield generation, lending and derivatives.
 
-FlashLiquidity is primarily a decentralized exchange running on Polygon mainnet and derived from [uniswap-v2](https://github.com/Uniswap/v2-core) with liquidity providers sharing a 0.25% fee of the trading volume as incentive.
+**FlashLiquidity Decentralized Exchange** (Live on Polygon)
 
-The **key difference** between **FlashLiquidity** and **Uniswap** is that pairs [can](./#requirements)\* be assigned to a privileged address (FlashBot smart contract) or left open for public trading. In the first case token swaps can only be performed by the **authorized address** hence blocking external arbitrageurs that could compete ([frontrunning](https://arxiv.org/pdf/2102.03347.pdf)) with automated flash swaps executed by the FlashBot contract making possible to distribute arbitrage profits to liquidity providers instead.&#x20;
+The key difference between FlashLiquidity decentralized exchange and other mainstream DEXs is that pools can be left open for public trading or managed by the self-balancing automation:
 
-FlashBot contracts performs [Flash Swaps](https://docs.uniswap.org/protocol/V2/guides/smart-contract-integration/using-flash-swaps) only when the deviation between the rates of the assigned FlashLiquidity pool and an equivalent external pool on another decentralized exchanges exceeds a minimum profit threshold.
+1\) [Open pools](ecosystem/open-pools.md):&#x20;
 
-Automated flash swaps rebalance FlashLiquidity pools back to fair markets prices for profits which are then distributed to liquidity providers staking their [LP tokens](https://coinmarketcap.com/alexandria/glossary/liquidity-provider-tokens-lp-tokens) in the [Flash Swaps Farm](https://www.flashliquidity.finance/#/farm/flashswap) section.
+* **open** for public trading.
+* no front-running protection.
+* standard 0.30% token swap fees to incentivize liquidity provision.
 
-{% hint style="info" %}
-Flash swaps profits are denominated in one of the two tokens composing the pair in question (example: ETH-DAI distribute arbitrage profits in ETH).
-{% endhint %}
+2\) [Self-balancing pools](ecosystem/self-balancing-pools.md):&#x20;
 
-Alternatively liquidity providers can stake their LP tokens in the [FLIQ Farms ](ecosystem/farms/fliq-farms.md)section to receive [FLIQ](ecosystem/fliq-token.md) tokens at a fixed rate per second proportionally to their share of liquidity staked vs total liquidity staked in the pair in question (FLIQ Farms will be launched in the near future at the time of writing only Flash Swaps Farms are available).&#x20;
+* trading is **not open** to the public.
+* same token swap fees as open pools.
+* distribute profits derived from arbitrage operations done by the self-balancing mechanism to liquidity providers through [liquid farming](ecosystem/liquid-farming/).
+* aritrage operations are ensured leveraging [Chainlink Automation](https://automation.chain.link) and [Chainlink Price Feeds ](https://data.chain.link/)without the risks associated with a centralized automation stack.
 
-To get started just add liquidity to one of the pools of your choice and stake your LP tokens to receive a share of both token swap fees, flash swaps profits and/or FLIQ tokens.
+**Liquid Farming**:
 
-#### Flash swaps requirements: <a href="#requirements" id="requirements"></a>
+In a traditional yield farming system, users can deposit elegible tokens in a pool with other users to seek investment gains, often through interest gained by lending the pooled tokens. (tokens accepted for deposit in the yield farm is often referred as the staking tokens)
 
-{% hint style="warning" %}
-(**\***) Currently only pairs composed by 18 decimals token support automated flash swaps (new pair that will not meet this requirement will remain open for public trading but can still be included in the FLIQ liquidity mining program).
-{% endhint %}
+With liquid farming an equivalent amount of [liquid farming token](ecosystem/liquid-farming/liquid-farming-tokens.md) is minted upon deposit of the elegible LP tokens.
 
-### Fundamentals
+Example: when depositing ETH/DAI LP tokens in the ETH/DAI farm an equivalent amount of fl-ETH/DAI liquid token is minted (entitled to redeem anytime the LP tokens deposited plus accrued rewards)&#x20;
 
-Learn the fundamentals of FlashLiquidity:
+Liquid farming's true advantage is the "composability" of the yield strategies it makes possible. Liquid farming tokens can be used as collateral on centralized or decentralized markets or lending pools, for example: the staker can lend out their liquid farm token and receive the loan's interest on top of the farm yield.
 
-{% content-ref url="ecosystem/automated-market-maker/" %}
-[automated-market-maker](ecosystem/automated-market-maker/)
-{% endcontent-ref %}
+Two different type of liquid farming:
 
-{% content-ref url="ecosystem/automated-dex-arbitrage/" %}
-[automated-dex-arbitrage](ecosystem/automated-dex-arbitrage/)
-{% endcontent-ref %}
+1\) [Arbitrage Farms](ecosystem/liquid-farming/arbitrage-farms.md): distribution of profits derived from self-balancing pools automation to liquidity providers staking their LP tokens in the farms. (**stFLASHa** liquid tokens)
 
-{% content-ref url="ecosystem/fliq-token.md" %}
-[fliq-token.md](ecosystem/fliq-token.md)
-{% endcontent-ref %}
-
-{% content-ref url="ecosystem/roadmap.md" %}
-[roadmap.md](ecosystem/roadmap.md)
-{% endcontent-ref %}
+2\) [FLIQ Farms](ecosystem/liquid-farming/fliq-farms.md): distribution of FLIQ tokens allocated to FLIQ mining program to liquidity providers staking their LP tokens in the farms. (**stFLASHf** liquid tokens, coming soon)
 
 ### Guides: Jump right in
-
-Follow our handy guides to get started as quickly as possible:
 
 {% content-ref url="guides/add-liquidity-quickstart.md" %}
 [add-liquidity-quickstart.md](guides/add-liquidity-quickstart.md)
