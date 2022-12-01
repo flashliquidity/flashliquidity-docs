@@ -12,8 +12,8 @@
   * [FLIQ farms](ecosystem/liquid-farming/fliq-farms.md)
   * [Flash loans](ecosystem/liquid-farming/flash-loans.md)
 * [FLIQ token](ecosystem/fliq-token.md)
-* [Governance](ecosystem/governance.md)
 * [Roadmap](ecosystem/roadmap.md)
+* [Governance](ecosystem/governance.md)
 
 ## Guides
 

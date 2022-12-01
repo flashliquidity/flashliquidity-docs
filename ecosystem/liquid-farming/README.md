@@ -12,7 +12,7 @@ In a traditional yield farming system, users can deposit cryptocurrency in a poo
 Every liquid farms mints its own **liquid farming token** upon deposit of the LP tokens (e.g ETH-DAI arbitrage farm mint fl-ETH/DAI).
 {% endhint %}
 
-Liquid farming's true advantage is the composability of the yield strategies it makes possible. Liquid farming tokens can be used as collateral on centralized or decentralized markets or lending pools, for example: the staker can lend out their liquid farm token and receive the loan's interest on top of the farm yield.
+Liquid farming's true advantage is the composability of the yield strategies it makes possible. Liquid farming tokens can be used as collateral on centralized or decentralized markets or lending pools, for example: the staker can **lend out their liquid farm token** and receive the **loan's interest** **on top of the farm yield**.
 
 Two different type of liquid farming options available:
 

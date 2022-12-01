@@ -26,5 +26,3 @@ FLIQ tokens bought back by FliqPropulsionSystem are distributed to **FlashLiquid
 {% hint style="warning" %}
 To be announced.
 {% endhint %}
-
-<figure><img src="../.gitbook/assets/FlashLiquidity(1).png" alt=""><figcaption></figcaption></figure>
