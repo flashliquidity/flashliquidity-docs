@@ -1,6 +1,10 @@
 # Self-balancing pools
 
-Self-balancing pools are paired with a bot smart contract which constantly monitors prices across various decentralized exchanges on Polygon seeking arbitrage opportunities.
+{% hint style="success" %}
+Arbitrage automation V2 is no longer limited to pairs composed by 18 decimals and compatible with Uniswap V2/V3 forks, Algebra (Quickswap V3) and Kyberswap elastic.
+{% endhint %}
+
+Self-balancing pools are managed by the **Arbiter** smart contract which constantly monitors prices across various decentralized exchanges on Polygon seeking arbitrage opportunities.
 
 Smart contracts are natively asleep, and require an external entity to “wake” them up and trigger a particular function. This often introduces a single point of failure, in which developers set up in-house infrastructure that triggers the function when necessary — an inherently unreliable and opaque solution.
 
@@ -12,14 +16,10 @@ By leveraging Chainlink Automation and Price Feeds it has been possible to build
 
 <figure><img src="../.gitbook/assets/banner_flashliquidity_chainlink.jpg" alt=""><figcaption></figcaption></figure>
 
-Chainlink Automation trigger arbitrage operation from the bot contract when the deviation between the rates of the assigned FlashLiquidity pool and an equivalent external pool on another decentralized exchanges exceeds a minimum profit threshold (example: FlashLiquidity ETH-DAI pool and Quickswap ETH-DAI pool).
+Chainlink Automation trigger arbitrage operation from the Arbiter contract when the deviation between the rates of the assigned FlashLiquidity pool and an equivalent external pool on another decentralized exchanges exceeds a minimum profit threshold (example: FlashLiquidity ETH-DAI pool and Quickswap ETH-DAI pool).
 
 The minimum profit threshold is determined using Chainlink Price Feeds.
 
 Front running protection mechanism stop external arbitrageurs from competing with arbitrage bots.
 
 Automated artibrage operations rebalance FlashLiquidity pools back to fair markets prices for a profit that is then distributed to liquidity provider via liquid farming.
-
-{% hint style="info" %}
-Please note that self balancing automation currently supports only pairs composed by 18 decimals token and require at least one equivalent pair in one of the others Polygon DEXs, new pairs that will not meet these requirements can be only left open for public trading
-{% endhint %}

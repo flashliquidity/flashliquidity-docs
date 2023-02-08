@@ -6,7 +6,7 @@ description: Self-balancing pools profits distribution
 
 Profits from self-balancing automation are distributed to liquidity providers staking their LP tokens in the farm.
 
-Everytime an arbitrage operation is carried out by the bot smart contracts of a self-balancing pool, the profits realized are immediately routed to the correspondent arbitrage farm to be shared proportionally by LP stakers.
+Everytime an arbitrage operation is carried out by the Arbiter smart contracts on a self-balancing pool, the profits realized are immediately routed to the correspondent arbitrage farm to be shared proportionally by LP stakers.
 
 LP stakers receives an equal amount of stFLASHa liquid tokens upon LP tokens deposit in the farm.
 

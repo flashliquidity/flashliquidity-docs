@@ -8,7 +8,7 @@ Flash Loans allow you to borrow any available amount of assets without putting u
 
 * Arbitrage farms contracts can lend out up to the entire rewards token balance in flash loan operations.
 * flashLoan() function allows borrower to access liquidity of flash swaps farms reward token balance.
-* 0.005% fees. (Generates yield for the arbitrage profits deposited into farms)
+* 0.04% fees. (Generates yield for the arbitrage profits deposited into farms)
 * NOTE: _flash loan fee_ is waived for approved addresses (zero fee flash loans)
 * After some sanity checks, the Farm transfers the requested amounts of the reward token balance to your contract, then calls onFlashLoan() on receiver contract.
 

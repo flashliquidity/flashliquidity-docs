@@ -25,7 +25,7 @@ The key difference between FlashLiquidity decentralized exchange and other mains
 2\) [Self-balancing pools](ecosystem/self-balancing-pools.md):&#x20;
 
 * trading is **not open** to the public.
-* same token swap fees as open pools.
+* 0.06% token swap fees.
 * distribute profits derived from arbitrage operations done by the self-balancing mechanism to liquidity providers through [liquid farming](ecosystem/liquid-farming/).
 * aritrage operations are ensured leveraging [Chainlink Automation](https://automation.chain.link) and [Chainlink Price Feeds ](https://data.chain.link/)without the risks associated with a centralized automation stack.
 
@@ -37,13 +37,13 @@ With liquid farming an equivalent amount of [liquid farming token](ecosystem/liq
 
 Example: when depositing ETH/DAI LP tokens in the ETH/DAI farm an equivalent amount of fl-ETH/DAI liquid token is minted (entitled to redeem anytime the LP tokens deposited plus accrued rewards)&#x20;
 
-Liquid farming's true advantage is the "composability" of the yield strategies it makes possible. Liquid farming tokens can be used as collateral on centralized or decentralized markets or lending pools, for example: the staker can lend out their liquid farm token and receive the loan's interest on top of the farm yield.
+Liquid farming's true advantage is the "composability" of the yield strategies it makes possible. Liquid farming tokens could be used as collateral on centralized or decentralized markets or lending pools while still earning arbitrage profits on top of it.
 
 Two different type of liquid farming:
 
-1\) [Arbitrage Farms](ecosystem/liquid-farming/arbitrage-farms.md): distribution of profits derived from self-balancing pools automation to liquidity providers staking their LP tokens in the farms. (**stFLASHa** liquid tokens)
+1\) [Arbitrage Farms](ecosystem/liquid-farming/arbitrage-farms.md): distribution of profits derived from self-balancing pools automation to liquidity providers staking their LP tokens in the farms. (**stFLASH** liquid tokens)
 
-2\) [FLIQ Farms](ecosystem/liquid-farming/fliq-farms.md): distribution of FLIQ tokens allocated to FLIQ mining program to liquidity providers staking their LP tokens in the farms. (**stFLASHf** liquid tokens, coming soon)
+2\) [FLIQ Farms](ecosystem/liquid-farming/fliq-farms.md): distribution of FLIQ tokens allocated to FLIQ mining program to liquidity providers staking their LP tokens in the farms. (**stFLASHx** liquid tokens, coming soon)
 
 ### Guides: Jump right in
 
