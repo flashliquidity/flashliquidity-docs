@@ -16,9 +16,9 @@ Liquid farming's true advantage is the composability of the yield strategies it 
 
 Two different type of liquid farming options available:
 
-1\) [Arbitrage Farms](arbitrage-farms.md): distribution of profits derived from self-balancing pools automation to liquidity providers staking their LP tokens in the farms. (**stFLASHa** liquid farming tokens)
+1\) [Arbitrage Farms](arbitrage-farms.md): distribution of profits derived from self-balancing pools automation to liquidity providers staking their LP tokens in the farms. (**stFLASH** liquid farming tokens)
 
-2\) [FLIQ Farms](fliq-farms.md): distribution of FLIQ tokens allocated to FLIQ mining program to liquidity providers staking their LP tokens in the farms. (**stFLASHf** liquid farming tokens, coming soon)
+2\) [FLIQ Farms](fliq-farms.md): distribution of FLIQ tokens allocated to FLIQ mining program to liquidity providers staking their LP tokens in the farms. (**stFLASHx** liquid farming tokens, coming soon)
 
 Liquid farm tokens are minted upon LP tokens deposit and burned upon LP tokens withdrawal with a 1:1 ratio.
 
