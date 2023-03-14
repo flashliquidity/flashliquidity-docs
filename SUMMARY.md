@@ -13,7 +13,7 @@
   * [Flash loans](ecosystem/liquid-farming/flash-loans.md)
 * [FLIQ token](ecosystem/fliq-token.md)
 * [Roadmap](ecosystem/roadmap.md)
-* [Governance](ecosystem/governance.md)
+* [DAO](ecosystem/dao.md)
 
 ## Guides
 
