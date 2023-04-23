@@ -10,11 +10,15 @@ This documentation is still under redaction.
 
 ### Brief introduction:
 
-FlashLiquidity is a rapidly expanding suite of DeFi products ranging from decentralized trading, automated arbitrage, yield generation, lending and derivatives.
+**FlashLiquidity**'s suite of DeFi products not only offers a diverse range of financial services but also **prioritizes transparency** and inclusivity in its operations.&#x20;
 
-**FlashLiquidity Decentralized Exchange** (Live on Polygon)
+By providing transparent and immutable solutions for decentralized trading, automated arbitrage, yield generation, lending, and derivatives, FlashLiquidity aims to create a more accessible and inclusive financial landscape for everyone.&#x20;
 
-The key difference between FlashLiquidity decentralized exchange and other mainstream DEXs is that pools can be left open for public trading or managed by the self-balancing automation:
+**Decentralized Exchange** (Live on Polygon PoS and Polygon zkEVM chains)
+
+FlashLiquidity's decentralized exchange stands out from other mainstream DEXs due to the unparalleled flexibility it offers with its trading pools.&#x20;
+
+Unlike other DEXs, FlashLiquidity's pools can either be left open for public trading or managed by the self-balancing automation system, which distributes arbitrage profits to liquidity providers.&#x20;
 
 1\) [Open pools](ecosystem/open-pools.md):&#x20;
 
@@ -26,24 +30,33 @@ The key difference between FlashLiquidity decentralized exchange and other mains
 
 * trading is **not open** to the public.
 * 0.06% token swap fees.
-* distribute profits derived from arbitrage operations done by the self-balancing mechanism to liquidity providers through [liquid farming](ecosystem/liquid-farming/).
-* aritrage operations are ensured leveraging [Chainlink Automation](https://automation.chain.link) and [Chainlink Price Feeds ](https://data.chain.link/)without the risks associated with a centralized automation stack.
+* The profits earned from arbitrage operations conducted by the self-balancing mechanism are distributed to liquidity providers via [liquid farming](ecosystem/liquid-farming/) instead of leaving them to external arbitrageurs.
+*   FlashLiquidity's on-chain arbitrage automation leverages [Chainlink Automation](https://automation.chain.link) and [Chainlink Price Feeds ](https://data.chain.link/)to detect and perform profitable arbitrage operations between FlashLiquidity and other DEXs ensuring that price discrepancies are accurately detected, and arbitrage opportunities are swiftly executed.
 
-**Liquid Farming**:
+    Unlike solutions on traditional centralized automation stacks, FlashLiquidity's arbitrage automation is fully decentralized, transparent, and resistant to manipulation.
 
-In a traditional yield farming system, users can deposit elegible tokens in a pool with other users to seek investment gains, often through interest gained by lending the pooled tokens. (tokens accepted for deposit in the yield farm is often referred as the staking tokens)
+**Liquid Farming** (fair distribution of arbirtage profits and FLIQ tokens):
 
-With liquid farming an equivalent amount of [liquid farming token](ecosystem/liquid-farming/liquid-farming-tokens.md) is minted upon deposit of the elegible LP tokens.
+In traditional yield farming systems, users deposit eligible tokens in a pool with other users in order to seek investment gains, typically through interest earned from lending the pooled tokens. These tokens accepted for deposit in the yield farm are commonly known as staking tokens.
 
-Example: when depositing ETH/DAI LP tokens in the ETH/DAI farm an equivalent amount of fl-ETH/DAI liquid token is minted (entitled to redeem anytime the LP tokens deposited plus accrued rewards)&#x20;
+In contrast, liquid farming operates by minting an equivalent amount of liquid farming tokens upon deposit of eligible LP tokens.&#x20;
 
-Liquid farming's true advantage is the "composability" of the yield strategies it makes possible. Liquid farming tokens could be used as collateral on centralized or decentralized markets or lending pools while still earning arbitrage profits on top of it.
+For instance, when **ETH/USDC LP** tokens are deposited in the ETH/USDC farm, an equivalent amount of **fl-ETH/USDC** liquid token is minted, which is entitled to redeem the LP tokens deposited and the accrued rewards.
 
-Two different type of liquid farming:
+Liquid farming's true advantage lies in the **composability** of the yield strategies it enables. Liquid farming tokens can be used as collateral on centralized or decentralized markets or lending pools while still earning arbitrage profits on top of it.&#x20;
 
-1\) [Arbitrage Farms](ecosystem/liquid-farming/arbitrage-farms.md): distribution of profits derived from self-balancing pools automation to liquidity providers staking their LP tokens in the farms. (**stFLASH** liquid tokens)
+FlashLiquidity offers two different types of liquid farming:
 
-2\) [FLIQ Farms](ecosystem/liquid-farming/fliq-farms.md): distribution of FLIQ tokens allocated to FLIQ mining program to liquidity providers staking their LP tokens in the farms. (**stFLASHx** liquid tokens, coming soon)
+1. **Arbitrage Farms**: distribute profits derived from self-balancing pools automation to liquidity providers staking their LP tokens in the farms, mint **stFLASH** liquid tokens upon LP tokens deposit.
+2. **FLIQ Farms**: distribute FLIQ tokens allocated to FLIQ mining program to liquidity providers staking their LP tokens in the farms, mint **stFLASHx** liquid tokens upon LP token deposit (coming soon).
+
+**Lending (coming soon)**
+
+FlashLiquidity's upcoming lending service will allow to use liquid farming tokens as collateral for loans providing users with more flexibility and opportunities to access capital, while also earning yield on their assets.&#x20;
+
+This feature offers several advantages for users, including the ability to earn arbitrage profits on top of their collateral while still being able to access the capital they need.&#x20;
+
+Additionally, because liquid farming tokens are designed to be composable with other DeFi protocols, they can be used to unlock additional yield opportunities, providing even more benefits for users.
 
 ### Guides: Jump right in
 

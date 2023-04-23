@@ -8,34 +8,49 @@ Main Contracts:
 
 * Factory: [0x6e553d5f028bD747a27E138FA3109570081A23aE](https://polygonscan.com/address/0x6e553d5f028bD747a27E138FA3109570081A23aE)
 * Router: [0xc9f7525b338d72B5945eE26eADb091c10904fC43](https://polygonscan.com/address/0xc9f7525b338d72b5945ee26eadb091c10904fc43)
-* FarmFactory: [0xF221B002c187e92301554CAd2Cd7e12ff01901C0](https://polygonscan.com/address/0xF221B002c187e92301554CAd2Cd7e12ff01901C0)
-* FLIQ mining StakingFactory: (to be deployed)
+* Arb Farm Factory: [0x2fC006999fC5FF14E7BE27f60AC69fCE96914498](https://polygonscan.com/address/0x2fC006999fC5FF14E7BE27f60AC69fCE96914498)
+* FLIQ Farm Factory: (to be deployed)
 * FLIQ token: [0x440c36CB5558D1807d6B2C04f9f36970387aEB68](https://polygonscan.com/address/0x440c36CB5558D1807d6B2C04f9f36970387aEB68)
-* Arbiter: [0x66172DfE0708AB71FdB533576a61234A8B66f987](https://polygonscan.com/address/0x66172DfE0708AB71FdB533576a61234A8B66f987)
-* BastionV2: [0x9D3a4F05ef101375deE53567A1482f7FDDAD6196](https://polygonscan.com/address/0x9D3a4F05ef101375deE53567A1482f7FDDAD6196)
-* UpkeepsStationV2: [0x576b4fa467256566Cd59158787798c798c7C5024](https://polygonscan.com/address/0x576b4fa467256566Cd59158787798c798c7C5024)
+* Arbiter: [0xe885588BCA3A5Cbc9CA006c66d380DE3EDB5562a](https://polygonscan.com/address/0xe885588BCA3A5Cbc9CA006c66d380DE3EDB5562a)
+* BastionV3: [0xEe030ae0F6af1d50a41cC4D825E560306a342Ac4](https://polygonscan.com/address/0xEe030ae0F6af1d50a41cC4D825E560306a342Ac4)
+* UpkeepsStationV2: [0x92193397B6197a225624CC81316F0B5D03d3Fa85](https://polygonscan.com/address/0x92193397B6197a225624CC81316F0B5D03d3Fa85)
 
 Arbitrage Farms Contracts:
+
+* MATIC-USDC: [0x03A3Ee62eAc79Ab0Ab8a2a7C8aF2CF92356F33a8](https://polygonscan.com/address/0x03A3Ee62eAc79Ab0Ab8a2a7C8aF2CF92356F33a8)
+* USDC-ETH: [0xd8FEce47db7711A05ea873e5D606a07f36EcDA27](https://polygonscan.com/address/0xd8FEce47db7711A05ea873e5D606a07f36EcDA27)
+* ETH-LINK: [0x329338aBd017bA9247bCF052Cc0CF2ed9a506FDE](https://polygonscan.com/address/0x329338aBd017bA9247bCF052Cc0CF2ed9a506FDE)
+* ETH-AAVE: [0x6a3f75DcFb02d786De8877D68429D1F07B3163fc](https://polygonscan.com/address/0x6a3f75DcFb02d786De8877D68429D1F07B3163fc)
+
+FLIQ Farms Contracts: (To be deployed)
+
+
+
+Old contracts:
+
+* Router (Old): [0x552bE393Ef90A8f95836942f731359cf609badb7](https://polygonscan.com/address/0x552bE393Ef90A8f95836942f731359cf609badb7)
+* Factory (Old): [0x59c2997A3D73F32590D9D49dE63B860bB1477d3c](https://polygonscan.com/address/0x59c2997A3D73F32590D9D49dE63B860bB1477d3c)
+* FarmFactory (Old): [0xF221B002c187e92301554CAd2Cd7e12ff01901C0](https://polygonscan.com/address/0xF221B002c187e92301554CAd2Cd7e12ff01901C0)
+* FarmFactory (Old): [0x4E19DDA1Ad86E0A87527bC30c313eC8133051D01](https://polygonscan.com/address/0x4E19DDA1Ad86E0A87527bC30c313eC8133051D01)
+* Arbiter (Old): [0x66172DfE0708AB71FdB533576a61234A8B66f987](https://polygonscan.com/address/0x66172DfE0708AB71FdB533576a61234A8B66f987)
+* BastionV2 (Old): [0x9D3a4F05ef101375deE53567A1482f7FDDAD6196](https://polygonscan.com/address/0x9D3a4F05ef101375deE53567A1482f7FDDAD6196)
+* UpkeepsStationV2 (Old): [0x576b4fa467256566Cd59158787798c798c7C5024](https://polygonscan.com/address/0x576b4fa467256566Cd59158787798c798c7C5024)
+* FlashBotFactory (Old): [0x93f515Df1a20a69ED01D181d85742BF5dE5028C2](https://polygonscan.com/address/0x93f515Df1a20a69ED01D181d85742BF5dE5028C2)
+* FlashLiquidityBastion (Old): [0xD50d0A0361691bD64c56F946CbFE627Fb2329012](https://polygonscan.com/address/0xD50d0A0361691bD64c56F946CbFE627Fb2329012)
+* UpkeepsStationFactory (Old): [0x4220Ec78a582e401F373009c5bD1107C1C4c29a8](https://polygonscan.com/address/0x4220Ec78a582e401F373009c5bD1107C1C4c29a8)
+* FliqPropulsionSystem (Old): [0xaA853483D3d8E910Ef312c8E967876dE16cf5FE8](https://polygonscan.com/address/0xaA853483D3d8E910Ef312c8E967876dE16cf5FE8)
+* UpkeepsStationV2 (Old): [0xBb625EA32Afc48CbBeA9f77537e087B20a39fC1E](https://polygonscan.com/address/0xBb625EA32Afc48CbBeA9f77537e087B20a39fC1E)
+* BastionV2 (Old): [0xCE9959DC811398Ba3e468867755A2e8bF1c24385](https://polygonscan.com/address/0xCE9959DC811398Ba3e468867755A2e8bF1c24385)
+* Arbiter (Old): [0xb0E239AbEb1d7Cf54eB802ea39A60807c09a3639](https://polygonscan.com/address/0xb0E239AbEb1d7Cf54eB802ea39A60807c09a3639)
+
+Old Arbitrage V2 Farms Contracts:
 
 * MATIC-USDC: [0x7EDBf73Cb7b2bC33969caD13948c182e850174cC](https://polygonscan.com/address/0x7EDBf73Cb7b2bC33969caD13948c182e850174cC)
 * USDC-ETH: [0xa0e9eA553a25D60cDddB2f1938C1Fc2Ad41c0CbC](https://polygonscan.com/address/0xa0e9eA553a25D60cDddB2f1938C1Fc2Ad41c0CbC)
 * ETH-LINK: [0xC2BaF9C81850B8D66273C871406eFcC172172C0a](https://polygonscan.com/address/0xC2BaF9C81850B8D66273C871406eFcC172172C0a)
 * ETH-AAVE: [0xECC1F7c9D5E5f97C7D6Fba5B8079eEfDdbB4197e](https://polygonscan.com/address/0xECC1F7c9D5E5f97C7D6Fba5B8079eEfDdbB4197e)
 
-Old contracts:
-
-* Router (Old): [0x552bE393Ef90A8f95836942f731359cf609badb7](https://polygonscan.com/address/0x552bE393Ef90A8f95836942f731359cf609badb7)
-* Factory (Old): [0x59c2997A3D73F32590D9D49dE63B860bB1477d3c](https://polygonscan.com/address/0x59c2997A3D73F32590D9D49dE63B860bB1477d3c)
-* FarmFactory (Old): [0x4E19DDA1Ad86E0A87527bC30c313eC8133051D01](https://polygonscan.com/address/0x4E19DDA1Ad86E0A87527bC30c313eC8133051D01)
-* FlashBotFactory (Old): [0x93f515Df1a20a69ED01D181d85742BF5dE5028C2](https://polygonscan.com/address/0x93f515Df1a20a69ED01D181d85742BF5dE5028C2)
-* FlashLiquidityBastion (Old): [0xD50d0A0361691bD64c56F946CbFE627Fb2329012](https://polygonscan.com/address/0xD50d0A0361691bD64c56F946CbFE627Fb2329012)
-* UpkeepsStationFactory (Old): [0x4220Ec78a582e401F373009c5bD1107C1C4c29a8](https://polygonscan.com/address/0x4220Ec78a582e401F373009c5bD1107C1C4c29a8)
-* FliqPropulsionSystem (Old): [0xaA853483D3d8E910Ef312c8E967876dE16cf5FE8](https://polygonscan.com/address/0xaA853483D3d8E910Ef312c8E967876dE16cf5FE8)
-* UpkeepsStationV2: [0xBb625EA32Afc48CbBeA9f77537e087B20a39fC1E](https://polygonscan.com/address/0xBb625EA32Afc48CbBeA9f77537e087B20a39fC1E)
-* BastionV2: [0xCE9959DC811398Ba3e468867755A2e8bF1c24385](https://polygonscan.com/address/0xCE9959DC811398Ba3e468867755A2e8bF1c24385)
-* Arbiter: [0xb0E239AbEb1d7Cf54eB802ea39A60807c09a3639](https://polygonscan.com/address/0xb0E239AbEb1d7Cf54eB802ea39A60807c09a3639)
-
-Old Arbitrage Farms Contracts:
+Old Arbitrage V1 Farms Contracts:
 
 * MATIC-ETH: [0xe15eA631f1b8228ea3ef9531820936398C05eA3d](https://polygonscan.com/address/0xe15eA631f1b8228ea3ef9531820936398C05eA3d)
 * ETH-DAI: [0x068ea5E30052EEE2A90D2DB0709230226324940a](https://polygonscan.com/address/0x068ea5E30052EEE2A90D2DB0709230226324940a)
@@ -47,5 +62,3 @@ Old Arbitrage Farms Contracts:
 * MATIC-SOL: [0x42f528e145d1f6084321D92F7863696406Dd6B43](https://polygonscan.com/address/0x42f528e145d1f6084321D92F7863696406Dd6B43)
 * miMATIC-MATIC: [0x1F766b04657c2D6A0b5F6E7782A969BA73B89625](https://polygonscan.com/address/0x1F766b04657c2D6A0b5F6E7782A969BA73B89625)
 * ETH-GRT: [0xD06215e1d7d7Eb7879C16711e2119b0598d226F8](https://polygonscan.com/address/0xD06215e1d7d7Eb7879C16711e2119b0598d226F8)
-
-FLIQ Farms Contracts: (To be deployed)

@@ -4,12 +4,12 @@ description: Liquid farming overview
 
 # Liquid farming
 
-Liquid farms allow to stake LP tokens to earn additional yield on top of token swap fees.
+Staking LP tokens in liquid farms enables users to earn extra yield on top of token swap fees.
 
 In a traditional yield farming system, users can deposit cryptocurrency in a pool with other users to seek investment gains, often through interest gained by lending the pooled cryptocurrency.
 
 {% hint style="success" %}
-Every liquid farms mints its own **liquid farming token** upon deposit of the LP tokens (e.g ETH-DAI arbitrage farm mint fl-ETH/DAI).
+Upon deposit of LP tokens into a liquid farm, a corresponding liquid farming token is minted (such as fl-ETH/DAI for the ETH-DAI arbitrage farm).
 {% endhint %}
 
 Liquid farming's true advantage is the composability of the yield strategies it makes possible. Liquid farming tokens can be used as collateral on centralized or decentralized markets or lending pools, for example: the staker can **lend out their liquid farm token** and receive the **loan's interest** **on top of the farm yield**.
@@ -22,9 +22,9 @@ Two different type of liquid farming options available:
 
 Liquid farm tokens are minted upon LP tokens deposit and burned upon LP tokens withdrawal with a 1:1 ratio.
 
-Liquid farm tokens can also be transfered with the desirable property of moving, partially or entirely,  the staking position from sender to receiver as well as the accrued rewards.
+It is possible to transfer liquid farm tokens while also having the desirable property of partially or entirely moving the staking position, as well as the accrued rewards, from the sender to the receiver.
 
 {% hint style="warning" %}
-Liquid farm tokens are transferable upon condition met: 1 day transfer lock period on mint or after rewards claim (withdrawal excluded).
+Liquid farming tokens can be redeemed at any time for the LP tokens and deposited profits from the farms. However, there is a 7-day lock period for transfers after minting new liquid tokens or claiming rewards (withdrawals excluded).
 {% endhint %}
 

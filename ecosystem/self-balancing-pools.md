@@ -4,22 +4,20 @@
 Arbitrage automation V2 is no longer limited to pairs composed by 18 decimals and compatible with Uniswap V2/V3 forks, Algebra (Quickswap V3) and Kyberswap elastic.
 {% endhint %}
 
-Self-balancing pools are managed by the **Arbiter** smart contract which constantly monitors prices across various decentralized exchanges on Polygon seeking arbitrage opportunities.
+The **Arbiter** smart contract manages the self-balancing pools and continually scans prices across multiple decentralized exchanges to identify arbitrage opportunities.
 
-Smart contracts are natively asleep, and require an external entity to “wake” them up and trigger a particular function. This often introduces a single point of failure, in which developers set up in-house infrastructure that triggers the function when necessary — an inherently unreliable and opaque solution.
+Smart contracts are typically dormant and need an external entity to activate them and initiate a specific function. This can create a single point of failure where developers establish internal infrastructure to execute the function when required, leading to an unreliable and opaque solution.
+
+By leveraging Chainlink Automation and Price Feeds FlashLiquidity has developed a fully automated system that searches for profitable on-chain arbitrage opportunities, executes the swap, and distributes the resulting gains to liquidity providers - all on-chain.&#x20;
+
+This approach eliminates the need for a centralized automation stack, reducing associated risks and increasing transparency.
 
 
 
 <figure><img src="../.gitbook/assets/Copia di FlashLiquidity(2).png" alt=""><figcaption><p>Integration with Chainlink Automation and Price Feeds</p></figcaption></figure>
 
-By leveraging Chainlink Automation and Price Feeds it has been possible to build an end-to-end automated system for finding profitable on-chain arbitrage opportunities, carrying out the swap, and returning gains to liquidity providers entirely on-chain without the risks associated with a centralized automation stack.
+The **Arbiter** contract utilizes Chainlink Automation to initiate arbitrage operations when the price difference between the assigned FlashLiquidity pool and an equivalent external pool on another decentralized exchange exceeds a minimum profit threshold. This minimum profit threshold is determined by using Chainlink Price Feeds.
 
-<figure><img src="../.gitbook/assets/banner_flashliquidity_chainlink.jpg" alt=""><figcaption></figcaption></figure>
+Front running protection mechanism stop external arbitrageurs from competing with arbitrage operations.
 
-Chainlink Automation trigger arbitrage operation from the Arbiter contract when the deviation between the rates of the assigned FlashLiquidity pool and an equivalent external pool on another decentralized exchanges exceeds a minimum profit threshold (example: FlashLiquidity ETH-DAI pool and Quickswap ETH-DAI pool).
-
-The minimum profit threshold is determined using Chainlink Price Feeds.
-
-Front running protection mechanism stop external arbitrageurs from competing with arbitrage bots.
-
-Automated artibrage operations rebalance FlashLiquidity pools back to fair markets prices for a profit that is then distributed to liquidity provider via liquid farming.
+Once executed, the automated arbitrage operations rebalance the FlashLiquidity pools back to fair market prices, generating profits that are then distributed to liquidity providers through the liquid farming mechanism.
