@@ -35,7 +35,7 @@ Unlike other DEXs, FlashLiquidity's pools can either be left open for public tra
 
     Unlike solutions on traditional centralized automation stacks, FlashLiquidity's arbitrage automation is fully decentralized, transparent, and resistant to manipulation.
 
-**Liquid Farming** (fair distribution of arbirtage profits and FLIQ tokens):
+**Liquid Farming** (fair distribution of arbitrage profits and FLIQ tokens):
 
 In traditional yield farming systems, users deposit eligible tokens in a pool with other users in order to seek investment gains, typically through interest earned from lending the pooled tokens. These tokens accepted for deposit in the yield farm are commonly known as staking tokens.
 
@@ -50,7 +50,7 @@ FlashLiquidity offers two different types of liquid farming:
 1. **Arbitrage Farms**: distribute profits derived from self-balancing pools automation to liquidity providers staking their LP tokens in the farms, mint **stFLASH** liquid tokens upon LP tokens deposit.
 2. **FLIQ Farms**: distribute FLIQ tokens allocated to FLIQ mining program to liquidity providers staking their LP tokens in the farms, mint **stFLASHx** liquid tokens upon LP token deposit (coming soon).
 
-**Lending (coming soon)**
+**Lending** (coming soon)
 
 FlashLiquidity's upcoming lending service will allow to use liquid farming tokens as collateral for loans providing users with more flexibility and opportunities to access capital, while also earning yield on their assets.&#x20;
 
