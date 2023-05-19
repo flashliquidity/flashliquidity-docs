@@ -48,7 +48,7 @@ Liquid farming's true advantage lies in the **composability** of the yield strat
 FlashLiquidity offers two different types of liquid farming:
 
 1. **Arbitrage Farms**: distribute profits derived from self-balancing pools automation to liquidity providers staking their LP tokens in the farms, mint **stFLASH** liquid tokens upon LP tokens deposit.
-2. **FLIQ Farms**: distribute FLIQ tokens allocated to FLIQ mining program to liquidity providers staking their LP tokens in the farms, mint **stFLASHx** liquid tokens upon LP token deposit (coming soon).
+2. **FLIQ Farms**: distribute FLIQ tokens allocated to FLIQ mining program to liquidity providers staking their LP tokens in the farms (coming soon).
 
 **Lending** (coming soon)
 

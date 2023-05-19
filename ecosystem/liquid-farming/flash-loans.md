@@ -1,6 +1,10 @@
 # Flash loans
 
-![](../../.gitbook/assets/flashloan.jpg)
+<div align="center">
+
+<img src="../../.gitbook/assets/flashloan.jpg" alt="">
+
+</div>
 
 {% hint style="success" %}
 Flash Loans allow you to borrow any available amount of assets without putting up any collateral, as long as the liquidity is returned to the protocol within one block transaction.
