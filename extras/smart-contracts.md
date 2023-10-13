@@ -2,12 +2,12 @@
 description: FlashLiquidity contracts addresses
 ---
 
-# Contracts
+# Smart Contracts
 
 Main Contracts:
 
 * Factory: [0x6e553d5f028bD747a27E138FA3109570081A23aE](https://polygonscan.com/address/0x6e553d5f028bD747a27E138FA3109570081A23aE)
-* Router: [0xc9f7525b338d72B5945eE26eADb091c10904fC43](https://polygonscan.com/address/0xc9f7525b338d72b5945ee26eadb091c10904fc43)
+* Router: [0xaf5990f587f4e10aE0361f657712F9B1067e25b3](https://polygonscan.com/address/0xaf5990f587f4e10aE0361f657712F9B1067e25b3)
 * Arb Farm Factory: [0x2fC006999fC5FF14E7BE27f60AC69fCE96914498](https://polygonscan.com/address/0x2fC006999fC5FF14E7BE27f60AC69fCE96914498)
 * FLIQ Farm Factory: (to be deployed)
 * FLIQ token (Ethereum): [0xF928e98D191A8a070b007F1794D05ebf56c9fA13](https://etherscan.io/token/0xF928e98D191A8a070b007F1794D05ebf56c9fA13)

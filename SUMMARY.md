@@ -23,4 +23,4 @@
 
 ## Extras
 
-* [Contracts](extras/contracts.md)
+* [Smart Contracts](extras/smart-contracts.md)
