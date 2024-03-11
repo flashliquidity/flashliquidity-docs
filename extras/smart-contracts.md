@@ -10,11 +10,9 @@ Main Contracts:
 * Router: [0xaf5990f587f4e10aE0361f657712F9B1067e25b3](https://polygonscan.com/address/0xaf5990f587f4e10aE0361f657712F9B1067e25b3)
 * Arb Farm Factory: [0x2fC006999fC5FF14E7BE27f60AC69fCE96914498](https://polygonscan.com/address/0x2fC006999fC5FF14E7BE27f60AC69fCE96914498)
 * FLIQ Farm Factory: (to be deployed)
-* FLIQ token (Ethereum): [0xF928e98D191A8a070b007F1794D05ebf56c9fA13](https://etherscan.io/token/0xF928e98D191A8a070b007F1794D05ebf56c9fA13)
-* FLIQ token (Polygon PoS): [0xEb80C2d82C63FDe0F06a386939Eb488Dd3e8D6C5](https://polygonscan.com/address/0xEb80C2d82C63FDe0F06a386939Eb488Dd3e8D6C5#code)
 * Arbiter: [0x33aF6444b665A39dFa338dfCCe07BF1022F73916](https://polygonscan.com/address/0x33aF6444b665A39dFa338dfCCe07BF1022F73916)
 * BastionV3: [0x5442042788877De62FE747840e544dA4A73FEa3b](https://polygonscan.com/address/0x5442042788877De62FE747840e544dA4A73FEa3b)
-* UpkeepsStationV3: [0xc8F11AF701B1032367Ab7073C18CdDE73dF60f0d](https://polygonscan.com/address/0xc8F11AF701B1032367Ab7073C18CdDE73dF60f0d)
+* UpkeepsStationV3: [0xE4C0731f38366C7f59A846Db4cFe34775706cCF9](https://polygonscan.com/address/0xE4C0731f38366C7f59A846Db4cFe34775706cCF9)
 
 Arbitrage Farms Contracts:
 

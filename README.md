@@ -14,7 +14,7 @@ This documentation is still under redaction.
 
 By providing transparent and immutable solutions for decentralized trading, automated arbitrage, yield generation, lending, and derivatives, FlashLiquidity aims to create a more accessible and inclusive financial landscape for everyone.&#x20;
 
-**Decentralized Exchange** (Live on Polygon PoS and Polygon zkEVM chains)
+**Decentralized Exchange**
 
 FlashLiquidity's decentralized exchange stands out from other mainstream DEXs due to the unparalleled flexibility it offers with its trading pools.&#x20;
 
