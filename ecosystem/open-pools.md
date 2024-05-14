@@ -10,9 +10,9 @@ The initial price of the pool is determined by this first liquidity provider.&#x
 
 There is a motivation for liquidity providers to add both tokens with equal value to the pool. If the initial liquidity provider deposits tokens at a ratio differing from the current market rate, this would immediately create a profitable arbitrage opportunity that would likely be taken advantage of by a third party.
 
-<figure><img src="../.gitbook/assets/Copia di FlashLiquidity(3).png" alt=""><figcaption><p>example ETH-DAI pool</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/DALL·E 2024-01-10 19.39.04 - Create a minimalistic cyberpunk-style image in purple tones, symbolizing the exchange of Bitcoin (BTC) for Ethereum (ETH). The design should feature s.png" alt="" width="188"><figcaption></figcaption></figure>
 
-Unique tokens known as liquidity tokens are created and transferred to the provider's address whenever liquidity is deposited into a pool.&#x20;
+Unique tokens known as liquidity providers tokens (LP tokens) are created and transferred to the provider's address whenever liquidity is deposited into a pool.&#x20;
 
 These coins represent the contribution to a pool made by a certain liquidity provider. The number of liquidity tokens the provider receives is based on the percentage of the pool's liquidity that is delivered.&#x20;
 
@@ -22,4 +22,4 @@ The quantity of liquidity tokens that the provider will receive if they are crea
 
 Every time a trade happens, the transaction sender is charged a 0.3% fee.&#x20;
 
-Upon the completion of the trade, the fee is distributed proportionally to each liquidity providers in the pool (0.25% to liquidity providers, 0.05% is retained by the protocol to buy back and burn FLIQ tokens).&#x20;
+Upon the completion of the trade, the fee is distributed proportionally to each liquidity providers in the pool.&#x20;
