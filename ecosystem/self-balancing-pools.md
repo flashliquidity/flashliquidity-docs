@@ -12,4 +12,4 @@ Smart contracts are typically dormant and need an external entity to activate th
 
 By leveraging Chainlink Automation, FlashLiquidity has developed a fully automated system that searches for profitable on-chain arbitrage opportunities, executes the swap, and distributes profits to liquidity providers—all on-chain. This approach eliminates the need for a centralized automation stack, reducing associated risks and increasing transparency.&#x20;
 
-The Arbiter **performs** rebalancing when the value ratio difference between the assigned FlashLiquidity pool and an equivalent external pool on another decentralized exchange exceeds a minimum arbitrage profit threshold. Once executed, the rebalancing operation brings the FlashLiquidity pools back to fair market.
+The Arbiter **performs** rebalancing when the value ratio difference between the assigned FlashLiquidity pool and an equivalent external pool on another decentralized exchange exceeds a minimum arbitrage profit threshold. Once executed, the rebalancing operation brings the FlashLiquidity pools back to fair market prices.
